@@ -1,0 +1,205 @@
+@media(max-width:1024px){
+    /* about section */
+}
+@media(max-width:991px){
+    /* Custom class */
+    .text-content{
+        width:100%;
+    }
+
+    /* navbar */
+    .navigation-wrap.navbar-brand img{
+        height: 3.8125rem;
+        /* background-color: #ffff; */
+    }
+    .navigation-wrap{
+        text-align:center;
+        background-color: #ffff;
+        
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+        /* color: #510f1f; */
+    }
+
+    /* banner */
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /*  carousel design*/
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
+}
+
+@media(max-width:320px){
+    /* Custom class */
+    .text-content{
+        width:100%;
+    }
+
+    /* navbar */
+    .navigation-wrap.navbar-brand img{
+        height: 3.8125rem;
+        background-color: #ffff;
+    }
+    .navigation-wrap{
+        text-align:center;
+        background-color: #ffff;
+        
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+        /* color: #510f1f; */
+    }
+}
+@media(max-width:767px){
+    /* Custom css */
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* top banner */
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    /* story section */
+    .story-section{
+        height: auto;
+        padding:9.375rem 0 9.375rem;
+    }
+
+    /*  carousel design*/
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+
+    /* footer link */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+
+}
+@media(max-width:330px){
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #faq h2 {
+        font-size: 20px;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+    }
+}
+
+/* Default */
+#testimonial {
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .story-section h2{
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .story-section{
+        padding: 80px 15px;
+    }
+
+    .story-section h2{
+        font-size: 1.5rem;
+    }
+
+    .main-btn{
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+
+/* Extra Small Devices (phones) */
+@media (max-width: 575px) {
+    #testimonial h2 {
+        font-size: 22px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+    }
+}
+
+/* Small Devices (large phones) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .testimonial-text {
+        font-size: 15px;
+    }
+}
+
+/* Medium Devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .testimonial-text {
+        font-size: 16px;
+    }
+}
+
+/* Large Devices (laptops) */
+@media (min-width: 992px) {
+    .testimonial-text {
+        font-size: 18px;
+    }
+}
+/* banner */
+/* Large screens */
+@media (min-width: 1400px){
+    .top-banner h1{
+        font-size: 3.5rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px){
+    .top-banner{
+        text-align: center;
+    }
+
+    .top-banner h1{
+        font-size: 2.3rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    .top-banner{
+        padding: 200px 15px;
+    }
+
+    .top-banner h1{
+        font-size: 1.8rem;
+    }
+
+    .tagline-para{
+        font-size: 0.9rem;
+    }
+}
